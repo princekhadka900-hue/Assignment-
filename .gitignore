@@ -1,0 +1,16 @@
+# Build
+target/
+*.class
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Local SQLite DB (we commit schema & seed only)
+src/main/resources/db/vax.db
